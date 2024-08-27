@@ -33,7 +33,7 @@ const App = () => {
 
   function onSignup() {
     setLoading(true);
-    onCaptchVerify();
+    // onCaptchVerify();
 
     const appVerifier = window.recaptchaVerifier;
 
