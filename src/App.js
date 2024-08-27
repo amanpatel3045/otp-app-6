@@ -17,17 +17,17 @@ const App = () => {
 
   function onCaptchVerify() {
     if (!window.recaptchaVerifier) {
-      window.recaptchaVerifier = new RecaptchaVerifier(
-        "recaptcha-container",
-        {
-          size: "invisible",
-          callback: (response) => {
-            onSignup();
-          },
-          "expired-callback": () => { },
-        },
-        auth
-      );
+      // window.recaptchaVerifier = new RecaptchaVerifier(
+      //   "recaptcha-container",
+      //   {
+      //     size: "invisible",
+      //     callback: (response) => {
+      //       onSignup();
+      //     },
+      //     "expired-callback": () => { },
+      //   },
+      //   auth
+      // );
     }
   }
 
